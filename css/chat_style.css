@@ -1,0 +1,75 @@
+.work{
+    margin-right: -58px;
+}
+#emoji{
+    margin-left: 12px;
+    margin-top: 10px;
+    height: 10vh;
+    width:66%;
+    overflow-y: scroll;
+    background: linear-gradient(rgb(243, 243, 122),rgb(149, 240, 149));
+    border: 3px solid black;
+}
+.emoji_select{
+    cursor: pointer;
+    background:none;
+    border: none;
+}
+.chat_container{
+    background: linear-gradient(rgb(243, 243, 122),rgb(149, 240, 149));
+    max-width: 450px;
+    border: 3px solid black;
+    margin: 10px;
+    height: 75vh;
+    overflow-y: scroll;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+}
+.message{
+    background: linear-gradient(white,rgb(207, 197, 197));
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family:cursive;
+}
+.left{
+    float: left;
+    clear: both;
+    box-shadow: -5px 5px #888888;
+
+}
+.right{
+    float: right;
+    clear: both;
+    box-shadow: 5px 5px #888888;
+}
+
+#sendBox{
+    display: flex;
+    align-items: center;
+    max-width: 472px;
+}
+#messageInput{
+    width:82%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    margin-left: 11px;
+} 
+.btn{
+    background: linear-gradient(rgb(243, 243, 122),rgb(149, 240, 149));
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 40px;
+    font-weight: bold;
+    font-size: medium;
+    padding: 2px;
+    margin-left: 9px;
+}

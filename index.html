@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <script defer src="nodeServer/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chat_style.css">
+</head>
+<body>
+    <div class="work">
+        <div class="leftBox">
+            <div class="chat_container"></div>
+            <div class="send">
+                <form action="#" id="sendBox">
+                    <input type="text" name="messageInput" id="messageInput">
+                    <button class="btn" type="submit">Send</button>
+                </form>
+            </div> 
+            <div id="emoji">
+                <button style="font-size:24px" id="emoji1" class="emoji_select" onClick="reply_click()">&#129315;</button>
+                <button style="font-size:24px" id="emoji2" class="emoji_select" onClick="reply_click()">&#128514;</button>
+                <button style="font-size:24px" id="emoji3" class="emoji_select" onClick="reply_click()">&#128517;</button>
+                <button style="font-size:24px" id="emoji4" class="emoji_select" onClick="reply_click()">&#128560;</button>
+                <button style="font-size:24px" id="emoji5" class="emoji_select" onClick="reply_click()">&#128513;</button>
+                <button style="font-size:24px" id="emoji6" class="emoji_select" onClick="reply_click()">&#128516;</button>
+                <button style="font-size:24px" id="emoji7" class="emoji_select" onClick="reply_click()">&#128518;</button>
+                <button style="font-size:24px" id="emoji8" class="emoji_select" onClick="reply_click()">&#128519;</button>
+                <button style="font-size:24px" id="emoji9" class="emoji_select" onClick="reply_click()">&#128520;</button>
+                <button style="font-size:24px" id="emoji10" class="emoji_select" onClick="reply_click()">&#128521;</button>
+                <button style="font-size:24px" id="emoji11" class="emoji_select" onClick="reply_click()">&#128522;</button>
+                <button style="font-size:24px" id="emoji12" class="emoji_select" onClick="reply_click()">&#128526;</button>
+                <button style="font-size:24px" id="emoji13" class="emoji_select" onClick="reply_click()">&#128128;</button>
+                <button style="font-size:24px" id="emoji14" class="emoji_select" onClick="reply_click()">&#129297;</button>
+                <button style="font-size:24px" id="emoji15" class="emoji_select" onClick="reply_click()">&#128591;</button>
+                <button style="font-size:24px" id="emoji16" class="emoji_select" onClick="reply_click()">&#129395;</button>
+        </div>
+        </div>
+    </div>
+    <div class="result">
+        <div id="info">Turn for Player 1.</div>
+        <button id="button2">Reset</button>
+    </div>
+    <div class="gameContainer">
+        <div class="container">
+            <div class="box bt-0 bl-0"><span class="boxtext" id = '0'></span></div>
+            <div class="box bt-0"><span class="boxtext"  id = '1'></span></div>
+            <div class="box bt-0 br-0"><span class="boxtext"  id = '2'></span></div>
+            <div class="box bl-0"><span class="boxtext" id = '3'></span></div>
+            <div class="box"><span class="boxtext" id = '4'></span></div>
+            <div class="box br-0"><span class="boxtext" id = '5'></span></div>
+            <div class="box bl-0 bb-0"><span class="boxtext" id = '6'></span></div>
+            <div class="box bb-0"><span class="boxtext" id = '7'></span></div>
+            <div class="box br-0 bb-0"><span class="boxtext" id = '8'></span></div>
+        </div>
+    </div>
+</body>
+</html>
